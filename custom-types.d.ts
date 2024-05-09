@@ -28,3 +28,9 @@ type User = {
     bs: string
   }
 }
+
+type BlogPost = {
+  id: string
+  title: string
+  date: string
+}

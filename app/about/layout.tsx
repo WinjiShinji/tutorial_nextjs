@@ -13,7 +13,9 @@ export default function AboutLayout({
 }) {
   return (
     <>
-      <nav>About NavBar</nav>
+      <nav className="flex justify-center align-middle bg-slate-600">
+        <div className="inset-0 text-xl">About NavBar</div>
+      </nav>
       <main className={styles.main}>{children}</main>
     </>
   )

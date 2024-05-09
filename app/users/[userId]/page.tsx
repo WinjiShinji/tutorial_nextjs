@@ -48,7 +48,9 @@ export default async function UserPage({ params: { userId } }: Params) {
 
   return (
     <>
-      <h2>{user.name}</h2>
+      <div className="flex justify-center align-middle bg-slate-600">
+        <h2 className="inset-0 text-xl">{user.name}</h2>
+      </div>
       <br />
       <Suspense fallback={<h2>Loading ...</h2>}>
         <UserPosts promise={userPostsData} />

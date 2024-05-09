@@ -15,10 +15,9 @@ export default async function UsersPage() {
 
   const content = (
     <section>
-      <h2>
-        <Link href="/">Back to Home</Link>
-      </h2>
-      <br />
+      <div className="flex justify-center align-middle bg-slate-600">
+        <h1 className="inset-0 text-xl">Blog Page</h1>
+      </div>
       {users.map((user) => {
         return (
           <>
