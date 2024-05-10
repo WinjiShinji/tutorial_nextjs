@@ -18,6 +18,9 @@ export default function Navbar() {
         <Link className=" hover:text-black" href={"/about"}>
           About
         </Link>
+        <Link className=" hover:text-black" href={"/feedback"}>
+          Feedback
+        </Link>
       </div>
     </nav>
   )
