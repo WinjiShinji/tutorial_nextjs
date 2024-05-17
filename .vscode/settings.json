@@ -1,4 +1,11 @@
 {
-  "cSpell.words": ["Blogpost", "blogposts", "deduped", "nextjs", "zipcode"],
+  "cSpell.words": [
+    "Blogpost",
+    "blogposts",
+    "deduped",
+    "nextjs",
+    "Todos",
+    "zipcode"
+  ],
   "cSpell.ignoreWords": ["opsz", "wght"]
 }

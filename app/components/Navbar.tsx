@@ -12,6 +12,9 @@ export default function Navbar() {
         <Link className=" hover:text-black" href={"/blog"}>
           Blog
         </Link>
+        <Link className=" hover:text-black" href={"/todos"}>
+          Todos
+        </Link>
         <Link className=" hover:text-black" href={"/users"}>
           Users
         </Link>
